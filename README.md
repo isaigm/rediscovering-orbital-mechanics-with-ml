@@ -92,4 +92,4 @@ This result successfully rediscovers Newton's law of universal gravitation, wher
 
 ## Acknowledgments
 
-This project was inspired by the work of the authors of "Rediscovering orbital mechanics with machine learning." The code and methodology were developed through an iterative process of experimentation and debugging, with significant assistance from the AI model GPT-4.
+This project was inspired by the work of the authors of "Rediscovering orbital mechanics with machine learning." The code and methodology were developed through an iterative process of experimentation and debugging, with significant assistance from the AI model Gemini 2.5 Pro.
