@@ -43,7 +43,7 @@ This project requires Python 3.9+ and several scientific computing libraries.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/isaigm/rediscovering-orbital-mechanics-with-ml](https://github.com/isaigm/rediscovering-orbital-mechanics-with-ml)
+    git clone (https://github.com/isaigm/rediscovering-orbital-mechanics-with-ml)
     cd rediscovering-orbital-mechanics-with-ml
     ```
 
