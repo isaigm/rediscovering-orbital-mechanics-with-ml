@@ -4,11 +4,11 @@ from pysr import PySRRegressor
 from model import PhysicsInteractionNetwork
 
 device = torch.device('cpu') 
-model_save_path = "best_model_1.pth"
+model_save_path = "best_model.pth"
 best_model = PhysicsInteractionNetwork().to(device)
 best_model.load_state_dict(torch.load(model_save_path, map_location=device))
 best_model.eval()
-masses_save_path = "best_masses_1.pth"
+masses_save_path = "best_masses.pth"
 best_masses_param = torch.load(masses_save_path, map_location=device)
 best_learned_masses = torch.exp(best_masses_param)
 fixed_mass = torch.tensor([[1.0]], dtype=torch.float32)
